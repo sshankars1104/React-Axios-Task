@@ -1,0 +1,81 @@
+/* Create.css */
+
+.form-container {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 25px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    /* height: 100vh; */
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container label {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.form-container input[type="text"],
+.form-container input[type="number"],
+.form-container input[type="checkbox"],
+.form-container input[type="radio"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: calc(100% - 20px);
+}
+
+.form-container input[type="checkbox"] {
+    width: auto;
+}
+
+.form-container input[type="radio"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+.form-container .married-checkbox {
+    display: flex;
+    align-items: center;
+}
+
+.form-container .married-checkbox input {
+    margin-left: 10px;
+    margin-bottom: 7px;
+}
+
+.form-container .radio-group {
+    display: flex;
+    align-items: center;
+}
+
+.form-container .radio-group label {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.form-container .radio-group input {
+    margin-left: 5px;
+}
+
+.form-container button {
+    padding: 10px 20px;
+    margin-left: 200px;
+    background-color: #4CAF50;
+    color: white;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-container button:hover {
+    background-color: #45a049;
+}

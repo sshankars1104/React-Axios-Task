@@ -1,0 +1,52 @@
+/* Update.css */
+
+.update-container {
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.update-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.update-form label {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.update-form input[type="text"],
+.update-form input[type="number"],
+.update-form input[type="checkbox"],
+.update-form input[type="radio"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: calc(100% - 20px);
+    margin-top: 5px;
+}
+
+.update-form input[type="checkbox"],
+.update-form input[type="radio"] {
+    width: auto;
+    margin-left: 10px;
+}
+
+.update-form button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.update-form button:hover {
+    background-color: #45a049;
+}
